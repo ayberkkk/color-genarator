@@ -27,7 +27,7 @@ const SaveBar = () => {
     <div>
       <button
         onClick={toggleSidebar}
-        className={`fixed right-0 top-0 p-2 m-4 border-2 border-gray-700 rounded-lg bg-transparent transition-all ease-in duration-200 hover:bg-slate-600 text-white rounded-lg cursor-pointer ${
+        className={`lg:fixed absolute right-10 top-0 p-2 m-4 border-2 border-gray-700 bg-transparent transition-all ease-in duration-200 hover:bg-slate-600 text-white rounded-lg cursor-pointer ${
           isSidebarOpen ? "hidden" : ""
         }`}
       >

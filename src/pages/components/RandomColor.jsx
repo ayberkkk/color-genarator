@@ -33,7 +33,7 @@ const RandomColor = ({ onRefreshClick }) => {
   return (
     <div>
       <button
-        className="border-2 border-gray-700 rounded-lg bg-transparent transition-all ease-in duration-200 hover:bg-slate-600 text-white py-2 px-4 mb-4 absolute top-4 right-20"
+        className="border-2 border-gray-700 rounded-lg bg-transparent transition-all ease-in duration-200 hover:bg-slate-600 text-white py-2 px-4 mb-4 absolute top-4 right-40"
         onClick={handleRefreshClick}
       >
         ↻
