@@ -15,7 +15,7 @@ const RandomColor = ({ onRefreshClick }) => {
 
   const generateRandomColors = () => {
     const newColors = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 500; i++) {
       newColors.push(generateRandomColor());
     }
     setColors((prevColors) => [...prevColors, ...newColors]);
@@ -33,10 +33,10 @@ const RandomColor = ({ onRefreshClick }) => {
   return (
     <div>
       <button
-        className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded mb-4"
+        className="border-2 border-gray-700 rounded-lg bg-transparent transition-all ease-in duration-200 hover:bg-slate-600 text-white py-2 px-4 mb-4 absolute top-4 right-20"
         onClick={handleRefreshClick}
       >
-        Yenile
+        ↻
       </button>
 
       <div className="flex flex-wrap">
